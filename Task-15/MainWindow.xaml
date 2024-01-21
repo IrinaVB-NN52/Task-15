@@ -1,0 +1,296 @@
+﻿<Window x:Class="Task_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="Auto" HorizontalAlignment="Center">
+                        <BlockUIContainer>
+                            <Image Source=" Data/1 картинка.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Italic  >
+                        <Run Foreground="Red" >
+                            НАТУРАЛЬНЫЕ КРАСИТЕЛИ
+                        </Run>
+                        <Hyperlink NavigateUri="https://ansygallery.ru/carpets/history/naturalnyie_krasiteli_v_kovrah_ruchnoy_rabotyi/">
+                            <Run Foreground="Red" >
+                                 В КОВРАХ РУЧНОЙ РАБОТЫ
+                            </Run>
+                        </Hyperlink>
+                        
+                       
+                    </Italic>
+                </Paragraph>
+                <Paragraph>
+                    Одной из характеристик восточных ковров является использования при их изготовлении натуральных красителей. Да-да, именно так. Яркие, красочные и стойкие узоры персидских, анатолийских, индийских или китайских ковров получают путем окрашивания пряжи компонентами природного происхождения. Какие “растительные” и “животные” красители используют для изготовления ручных ковров? Об этом вы узнаете, прочитав эту статью.
+                </Paragraph>
+                <Paragraph>
+                    <Italic >
+                        <Run Foreground="Red">
+                            ЭКСКУРС В ИСТОРИЮ: ИСПОЛЬЗОВАНИЕ КРАСИТЕЛЕЙ В ДРЕВНОСТИ
+                        </Run>
+                    </Italic>
+                </Paragraph>
+                <Paragraph>
+                        Еще в глубокой древности люди заметили, что определенные растения обладают красящим эффектом и стали использовать их для окрашивание тканей. Широкое применение “красящие” растения нашли и в ковроткачестве:
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                         Древней Персии, 
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                             Османской Империи
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                             Китая.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    Каждая школа бережно хранила рецепты и техники окрашивания шелка, хлопка и шерсти. Вплоть до второй половины XIX века натуральное сырье было незаменимым для получения широкой гаммы ковровых оттенков.
+                     Однако в 1856 году английский химик У. Перкин получил первый в мире синтетический краситель анилин. Это открыло эру искусственных красок, которые благодаря своей дешевизне начали применяться и восточными мастерами коврового дела. Несмотря на яркость цветов и невысокую стоимость, анилиновые красители имели серьезные недостатки - они были неестественно яркими и быстро выгорали с течением времени. Именно поэтому в начале XX века их использование на территории Персии было запрещено. Нарушителей карали строго - за использование синтетики красильщику отсекали правую руку.
+                     Сегодня в производстве ковров используются более качественные и стойкие химические красители на хромовой основе, а также различные комбинации натуральных и синтетических компонентов. Однако по технологии персидские ковры и ручные полотна из Турции, Китая, Индии и Кавказа плетутся из шелка и шерсти, окрашенных только красителями на натуральной основе.
+                   
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="350" HorizontalAlignment="Left" >
+                        <BlockUIContainer>
+                            <Image Source=" Data/2 картинка.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    
+                    <Italic >
+                        <Run Foreground="Red">
+                            РАСТИТЕЛЬНЫЕ КРАСИТЕЛИ В СОВРЕМЕННЫХ ВОСТОЧНЫХ КОВРАХ.
+                      </Run>
+                    </Italic>
+                   
+                </Paragraph>
+                
+               
+                <Paragraph>
+                    Для получения того или иного цвета, мастера применяют различные сочетания природных красителей. Всего в ковре может использоваться до 150 оттенков. Как получаются некоторые из них, описано ниже.
+                </Paragraph>
+                <Section FontSize="14">
+                    
+                    <Table>
+                    <Table.Columns>
+                        <TableColumn Width="3.5*"/>
+                        <TableColumn Width="2.5*"/>
+                        <TableColumn Width="2.5*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Природное сырье
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Цвет
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Получение красителя
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Индигофера красильная
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    синий индиго
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    перетертые листья растения
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Корень Марены Красильной
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    оттенки 
+                                    от ярко-красного
+                                    до коричневого
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    сухой толченый корень растения
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Кошениль
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    красный
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    высушенные панцири женской особи насекомого
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                        <TableCell>
+                                <Paragraph>
+                                    Акация катеху, 
+                                    дубовая кора, 
+                                    шелуха желудей, 
+                                    скорлупа грецкого ореха
+                                    и чай
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    коричневый и черный
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    концентрированные отвары
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Хна
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    оранжевый
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    -
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Кора дуба, кожура граната
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    коричневый разных оттенков
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    концентрированные отвары
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Полынь
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    зеленоватый
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    концентрированные отвары
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Куркума
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    оранжевый
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    концентрированные отвары
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                  </Table>
+                </Section>
+                <Paragraph>
+                    <Italic >
+                        <Run Foreground="Red">
+                            ТЕХНОЛОГИЯ ПРОИЗВОДСТВА
+                        </Run>
+                    </Italic>
+                    <Floater Width="350" HorizontalAlignment="Right"   >
+                        <BlockUIContainer>
+                            <Image Source=" Data/3 картинка.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Технология окрашивания
+                    Для окрашивания нитей используется либо только один краситель, либо различные комбинации красящих ингредиентов. Например, для получения насыщенного синего цвета применяется самый распространенный природный краситель индиго. А для получения различных оттенков зеленого, индиго смешивается с желтыми пигментами.
+                    Окрашивание пряжи происходит в больших чанах с водой, в которую добавляются красящие компоненты в определенных пропорциях. В раствор, нагретый до 80 градусов по Цельсию, добавляются нити. От времени нахождения пряжи в растворе и его насыщенности зависит интенсивность полученного цвета. После достижения нужного оттенка шерстяное или шелковое сырье выжимается в специальной центрифуге и высушивается. Окрашенные таким способом нити отправляются к мастерам, которые изготавливают из них элитные восточные ковры, которые становятся изюминкой интерьеров по всему миру.
+                    
+                </Paragraph>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Нажми, если понравилась статья "/>
+                        <Button Content="Нравиться!"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_2"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
